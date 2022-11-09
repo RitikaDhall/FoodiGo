@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestaurantDetailsActivity"
+    android:background="#ffffff">
+
+    <include
+        android:id="@+id/detToolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/txtDetInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Choose from menu listed below:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_below="@id/detToolbar"
+        android:textColor="#000000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignBottom="@id/txtDetInstructions" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/txtDetInstructions"
+        android:id="@+id/recyclerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/btnGoToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed to cart"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccentLight"
+        android:layout_alignParentBottom="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/progressLayoutDet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ProgressBar
+            android:id="@+id/progressBarDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

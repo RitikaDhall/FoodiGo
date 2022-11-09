@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FoodiGo</string>
+    <string name="mobile_number">Mobile Number (10 digits)</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="register"><u>Don\'t have an account? Sign up now</u></string>
+    <string name="email">Email Address</string>
+    <string name="address">Delivery Address</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="restaurant_price">\u20B9 350 / person</string>
+    <string name="restaurant_rating">4.5</string>
+    <string name="restaurant_name">Restaurant name</string>
+
+    <string name="item_price">\u20B9 100</string>
+
+    <string name="question_1">Q. Can I edit my order?</string>
+    <string name="answer_1">Your order can be edited before it reaches the restaurant. You could contact customer support team to do so.</string>
+    <string name="question_2">Q. Can I cancel my order?</string>
+    <string name="answer_2">We will do our best to accommodate your request if the order is not placed to the restaurant. Please note that we will have a right to charge a cancellation fee up to full order value to compensate our restaurant and delivery partners if your order has been confirmed.</string>
+    <string name="answer_3">We have no minimum order value and you can order for any amount.</string>
+    <string name="answer_4">Standard delivery times vary by the location selected and prevailing conditions.</string>
+    <string name="answer_5">Quantity and quality of the food is the restaurants\' responsibility. However in case of issues with the quality or quantity, kindly submit your feedback and we will pass it on to the restaurant.</string>
+    <string name="question_5">Q. Will FoodiGo be accountable for quality/quantity?</string>
+    <string name="question_4">Q. How long do you take to deliver?</string>
+    <string name="question_3">Q. Is there a minimum order value?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

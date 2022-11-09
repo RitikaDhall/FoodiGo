@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OrderPlacedActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imgOrderPlaced"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/order_placed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order has been placed successfully!"
+        android:textColor="@color/colorAccentLight"
+        android:layout_below="@id/imgOrderPlaced"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:id="@+id/btnOrderPlaced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccentLight"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:text="Ok"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

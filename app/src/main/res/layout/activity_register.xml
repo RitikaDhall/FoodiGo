@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <EditText
+        android:id="@+id/etRName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Name (Min. 3 characters)"
+        android:inputType="text"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_name"
+        android:drawablePadding="8dp" />
+
+    <EditText
+        android:id="@+id/etREmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRName"
+        android:layout_marginTop="8dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="8dp" />
+
+    <EditText
+        android:id="@+id/etRMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etREmail"
+        android:layout_marginTop="8dp"
+        android:hint="@string/mobile_number"
+        android:inputType="phone"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_mobile_number"
+        android:drawablePadding="8dp" />
+
+    <EditText
+        android:id="@+id/etRAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRMobileNumber"
+        android:layout_marginTop="8dp"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_address"
+        android:drawablePadding="8dp" />
+
+    <EditText
+        android:id="@+id/etRPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRAddress"
+        android:layout_marginTop="8dp"
+        android:hint="Password (Min. 4 characters)"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="8dp" />
+
+    <EditText
+        android:id="@+id/etRPasswordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRPassword"
+        android:layout_marginTop="8dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="8dp" />
+
+    <Button
+        android:id="@+id/btnRRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRPasswordConfirm"
+        android:layout_marginTop="50dp"
+        android:text="Register"
+        android:background="@color/colorPrimary"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:textColor="@color/colorAccentLight"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
